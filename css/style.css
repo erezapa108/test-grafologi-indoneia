@@ -222,7 +222,7 @@
   .dropdown-item-block{
     padding:12px 12px;
     border-radius:10px;
-    transition:background .2s ease;
+    transition: background .2s ease;
   }
   .dropdown-item-block:hover{ background:rgba(123,63,242,0.07); }
 
