@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
 //buka tutup hamburger-menu
 const burgerBtn = document.getElementById("burgerBtn");
 const mainMenu = document.getElementById("mainMenu");
@@ -70,3 +71,5 @@ if ("IntersectionObserver" in window) {
 } else {
   revealEls.forEach((el) => el.classList.add("in-view"));
 }
+
+});
